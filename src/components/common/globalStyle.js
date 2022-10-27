@@ -53,14 +53,25 @@ export const GlobalStyle = createGlobalStyle`
 		padding: 10px 16px;
 	}
 
-	button:hover{
+	button:hover, li:hover{
 		opacity: 0.8;
 	}
 
-	header > div {
-		margin: auto;
-		max-width: 1440px;
+    li, img, button{
+        user-select:none;
+    }
+
+	a{
+		cursor: pointer;
 	}
+
+	#root{
+		header > div, > section > div {
+			margin: auto;
+			max-width: 1440px;
+		}
+	}
+
 
     @media (max-width: 640px) {
         h1 {
