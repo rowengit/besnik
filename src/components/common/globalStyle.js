@@ -29,7 +29,6 @@ export const GlobalStyle = createGlobalStyle`
 		font-weight: 400;
 		font-size: 18px;
 		line-height: 32px;
-		text-transform: capitalize;
 		color: #5a6473;
 	}
 
@@ -39,6 +38,13 @@ export const GlobalStyle = createGlobalStyle`
 		font-size: 64px;
 		line-height: 76px;
 		color:#000336;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 35px;
+		line-height: 35px;
+		color: #000339;
 	}
 
 
@@ -53,11 +59,11 @@ export const GlobalStyle = createGlobalStyle`
 		padding: 10px 16px;
 	}
 
-	button:hover, li:hover{
+	button:hover, li:hover, a:hover{
 		opacity: 0.8;
 	}
 
-    li, img, button{
+    li, img, button, a{
         user-select:none;
     }
 

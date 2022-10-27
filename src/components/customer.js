@@ -1,6 +1,6 @@
 import { Logo } from "./common/logo";
 import styled from "styled-components";
-import { Star } from "./icons/star";
+import { ReactComponent as Star } from "./icons/star.svg";
 
 import Meundies from "../img/custMeundies.png";
 import Slack from "../img/custSlack.png";
