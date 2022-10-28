@@ -49,17 +49,17 @@ const CardList = styled.div`
 	margin: 68px auto 0 auto;
 	padding-bottom: 34px;
 	overflow: auto;
-	max-width: 1130px;
+	max-width: 1140px;
+
+	> div {
+		border-radius: 5px;
+		background: #fff;
+		margin: 0 15px;
+	}
 
 	@media (max-width: 1000px) {
 		margin-top: 34px;
 	}
-`;
-
-const Card = styled.div`
-	border-radius: 5px;
-	background: #fff;
-	margin: 0 15px;
 `;
 
 const Content = styled.div`
@@ -118,7 +118,7 @@ export const Featured = () => {
 					/>
 				</div>
 				<CardList>
-					<Card>
+					<div>
 						<Img Img={house1} />
 						<Content>
 							<h3>$35,000</h3>
@@ -138,8 +138,8 @@ export const Featured = () => {
 								</div>
 							</IconList>
 						</Content>
-					</Card>
-					<Card>
+					</div>
+					<div>
 						<Img Img={house2} />
 						<Content>
 							<h3>$35,000</h3>
@@ -159,8 +159,8 @@ export const Featured = () => {
 								</div>
 							</IconList>
 						</Content>
-					</Card>
-					<Card>
+					</div>
+					<div>
 						<Img Img={house3} />
 						<Content>
 							<h3>$35,000</h3>
@@ -180,7 +180,7 @@ export const Featured = () => {
 								</div>
 							</IconList>
 						</Content>
-					</Card>
+					</div>
 				</CardList>
 			</div>
 		</Wrapper>
