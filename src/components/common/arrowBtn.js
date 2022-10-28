@@ -7,6 +7,10 @@ const Styled = styled.a`
 	line-height: ${p => p.LineHeight};
 	text-align: center;
 	color: #0689ff;
+	align-items: center;
+	display: flex;
+	gap: 5px;
+	justify-content: center;
 `;
 
 export const ArrowBtn = ({

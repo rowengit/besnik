@@ -81,6 +81,7 @@ export const GlobalStyle = createGlobalStyle`
 
     @media (max-width: 640px) {
         h1 {
+			transition: font-size .25s linear;
             font-size: 42px;
             line-height: 56px;
         }
@@ -88,6 +89,7 @@ export const GlobalStyle = createGlobalStyle`
 
     @media (max-width: 420px) {
         h1 {
+			transition: font-size .25s linear;
             font-size: 36px;
             line-height: 42px;
         }
