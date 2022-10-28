@@ -1,9 +1,9 @@
-import { ReactComponent as Arrow } from "./icons/arrow.svg";
 import line from "../img/line.png";
 import rent from "../img/rent.png";
 import buyer from "../img/buyer.png";
 import seller from "../img/seller.png";
 import styled from "styled-components";
+import { ArrowBtn } from "./common/arrowBtn";
 
 const Wrapper = styled.section`
 	> div {
@@ -97,23 +97,17 @@ export const Guide = () => {
 					<div>
 						<img src={buyer} alt="buyer" />
 						<h3>Buyer Guides</h3>
-						<a>
-							How to buy <Arrow />
-						</a>
+						<ArrowBtn displayText="How to buy" />
 					</div>
 					<div>
 						<img src={rent} alt="rent" />
 						<h3>Renter Guides</h3>
-						<a>
-							How to rent <Arrow />
-						</a>
+						<ArrowBtn displayText="How to rent" />
 					</div>
 					<div>
 						<img src={seller} alt="seller" />
 						<h3>Seller Guides</h3>
-						<a>
-							How to sell <Arrow />
-						</a>
+						<ArrowBtn displayText="How to sell" />
 					</div>
 				</div>
 				<button>Sell Full Guidelines</button>
