@@ -80,6 +80,7 @@ const Wrapper = styled.footer`
 
 	@media (max-width: 640px) {
 		> section {
+			text-align: center;
 			display: block;
 			h3 {
 				margin-top: 36px;
@@ -97,6 +98,7 @@ const Wrapper = styled.footer`
 
 			.icon-list {
 				margin-top: 20px;
+				justify-content: center;
 			}
 		}
 
