@@ -30,8 +30,19 @@ const Wrapper = styled.header`
 				}
 
 				> ul {
+					width: 100%;
+					justify-content: center;
+					overflow: scroll;
 					margin: auto;
-					margin-bottom: 23px;
+					margin-bottom: 13px;
+					padding-bottom: 10px;
+				}
+			}
+
+			@media (max-width: 402px) {
+				> ul {
+					width: 100%;
+					justify-content: left;
 				}
 			}
 		}
